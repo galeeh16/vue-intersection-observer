@@ -73,7 +73,7 @@ import { ref, onMounted } from 'vue';
 
 function scrollMeTo(refName) {
   const element = document.getElementById(refName);
-  window.scrollTo(0, (element.offsetTop - 50))
+  window.scrollTo(0, (element.offsetTop - 20))
 
 }
 
