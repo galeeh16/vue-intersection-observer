@@ -120,6 +120,7 @@ onMounted(() => {
 html,
 body {
   color: #2c3e50;
+  scroll-behavior: smooth;
 }
 
 p {
